@@ -28,17 +28,29 @@
         ]);
 
         // Set chart options
-        var options = {'title':'How Much Pizza I Ate Last Night',
-                       'width':400,
-                       'height':300};
+        var options = {'title':'How Much I Spent on dinner Last Night',
+                       'width':700,
+                       'height':600};
 
         // Instantiate and draw our chart, passing in some options.
         var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
         chart.draw(data, options);
       }
     </script>
+    <style>
+      body{
+        background: #000;  
+      }
+      h2{
+        color: #fff;
+      }
+    </style>
   </head>
+  <div id="">
+ 
+    <h2> This is just a demo and shouldnt be taken seriously </h2>
 
+  </div>
   <body>
     <!--Div that will hold the pie chart-->
     <div id="chart_div"></div>
