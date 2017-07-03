@@ -1,0 +1,187 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.navMenu{
+    background: #fff;
+    border: thin;
+    margin-left: 70px;
+    border-left: 1px solid #EFEFEF;
+    padding: 0px;
+    position: relative;
+    left: 0px;
+    height: 70px;
+}
+
+.navComp {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: -10px;
+}
+
+.navComp > li {
+    float: left;
+}
+
+.navComp > li a{
+    display: block;
+    color:#7085A3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contain{
+   display: inline-block;
+    cursor: pointer; 
+    position: absolute;
+    left: -50px;
+    top: 20px;
+}
+
+.jumbotron{
+    margin-top: 2px;
+}
+
+#brandName{
+    color:#002960;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 20px; 
+}
+
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.jumbotron{
+    background-color: transparent;
+}
+
+#banner{
+   background: url('file:///C:/Users/Admin/Desktop/data-vis/images/view.jpg') no-repeat; 
+   
+   height: 600px;
+}
+
+#banner_content{
+    float: right;
+    margin-right: 60px;
+    margin-top: 80px;
+    color: #fff;
+    background: #333;
+    padding: 20px;
+     opacity: 0.7;
+}
+
+#banner_content > h2{
+ font-family:"Chronicle Deck", Georgia, Times, "Times New Roman", serif;
+ color:#c2c2c2;
+ color:rgb(194, 194, 194);
+background-color:#000000;
+background-color:rgba(0, 0, 0, 0);
+font-size: 60px;
+position: relative;
+z-index: 2;
+}
+
+#banner_content > p{
+    text-align: left;
+    color: #EFEFEF;
+    font-size: 15px;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13pxpx;
+  padding: 5px 9px 5px 9px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+#article{
+    margin-top: 30px;
+    background:#fff;
+    padding: 10px;
+}
+
+#featured{
+    background: #fff;
+    width: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    margin-left: 90px;
+}
+
+#content> p{
+    width: 600px;
+    text-align: left;
+}
+
+#chart_div{
+    width: 700px;
+    display: table;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 400px;
+}
+
+#header{
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+.survey{
+    background: #eee;
+    height: 700px;
+    margin-top: 30px;
+    padding-top: 130px;
+}
+
+a.button {
+    background-color: transparent;
+    text-align: center;
+    color: #23849b;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #23849b;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    padding: 10px 30px 8px;
+    font-size: 16px;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    line-height: 1;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#exploreButton{
+    margin-top: 20px; 
+}
+
