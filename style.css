@@ -99,6 +99,67 @@ z-index: 2;
     font-size: 15px;
 }
 
+#article-column{
+           display: inline-block;
+           padding: ;
+           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+           margin-right: 10px;
+           margin-bottom: 30px;
+        }
+
+#wordFaith{
+        	width: 350px;
+        	background:  #FFFFFF;
+        	color:#a9a9a9;
+        	border: thin;
+        	border-color: #696969;
+      		
+        }
+#blogImage{
+        	width: 350px;
+        	
+        }
+
+ #blog-title{
+        	color: #000000;
+			color: rgb(0, 0, 0);
+			background-color: #000000;
+			background-color: rgba(0, 0, 0, 0);
+			font-size: 16px;
+			line-height: 24px;
+			vertical-align: baseline;
+			letter-spacing: normal;
+			word-spacing: 0px;
+			font-family: 'Arimo', sans-serif;
+			font-weight: 500;
+			font-style: normal;
+			font-variant: normal;
+			text-transform:none;
+			text-decoration: none solid rgb(0, 0, 0);
+			text-align: left;
+			text-indent: 0px;
+			padding-left: 20px;
+        }
+       
+        #wordFaith > p{
+        	padding: 20px;
+        	z-index: -1;
+        	font-weight: lighter;
+        	font-family: 'Arimo', sans-serif;
+        	font-size: 15px;
+        	line-height: 24px;
+			vertical-align: baseline;
+			letter-spacing: normal;
+			word-spacing: 0px;
+			font-weight: 200;
+			font-style:normal;
+			font-variant: normal;
+			text-transform: none;
+			text-decoration:none solid rgb(153, 153, 153);
+			text-align: left;
+			text-indent:0px;
+        }
+
 .btn {
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
