@@ -105,6 +105,18 @@ Highcharts.chart('contain',{
         name: 'Oceania',
         data: [2, 2, 2, 6, 13, 30, 46]
     }]
+    
+    exporting: {
+        buttons: {
+            contextButton: {
+                symbol:'url(images/ic_file_download_black_24dp_2x.png)',
+                symbolStrokeWidth: 1,
+                symbolFill: '#a4edba',
+                symbolStroke: '#330033',
+                image:""
+            }
+        }
+    }
 })
     
     
